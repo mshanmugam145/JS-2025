@@ -352,7 +352,51 @@
 //          console.log(item);
 //       }
 
-// map
+
+// ### ==> Important
+// map ==> array output
+// let arr1 = [
+//         1, 2, 3, 4, 5
+//       ]; // original array
+
+// const result = arr1.map((element, i) => {
+//     return element * i
+// })
+// console.log(result);
+// console.log(arr1);
+
+
 // filter
+// let arr = [
+//     1, 2, 3, 4, 5
+//   ]; // original array
+
+// const result = arr.filter((element) => {
+//     return element > 0
+//   })
+//   console.log(result);
+//   console.log(arr);
+
+
 // reduce
+
+// let arr = [
+//     1, 2, 3, 4
+//   ]; // original array
+
+// let result = 0;
+// for(let i = 0; i < arr.length; i++){
+//     result = result + arr[i];
+// }
+// console.log(result);
+
+// const result = arr.reduce((accumulator, currentValue) => {
+//     return accumulator + currentValue // 0 + 1 ==> 1 + 2 => 3 + 3 => 6 + 4 => 10
+// }, 0)
+// console.log(result);
+
 // reduceRight
+// const result1 = arr.reduceRight((accumulator, currentValue) => {
+//     return accumulator + currentValue // 0 + 4 => 4 + 3 => 7 + 2 => 9 + 1 => 10
+// }, 0)
+// console.log(result1);
